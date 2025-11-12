@@ -9,7 +9,7 @@ use pytauri::standalone::{
 };
 use tauri::utils::platform::resource_dir;
 
-use YAAP_lib::{ext_mod, tauri_generate_context};
+use yaap_lib::{ext_mod, tauri_generate_context};
 
 fn main() -> Result<Infallible, Box<dyn Error>> {
     let py_env = if cfg!(dev) {

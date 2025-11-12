@@ -17,8 +17,7 @@
     "react-dom": "^18.3.1",
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-opener": "^2",
-    "tauri-plugin-pytauri-api": "^0.8.0",
-    "ripple": "latest"
+    "tauri-plugin-pytauri-api": "^0.8.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.1",
@@ -29,10 +28,6 @@
     "@tauri-apps/cli": "^2",
     "eslint": "^9.0.0",
     "prettier": "^3.6.2",
-    "@ripple-ts/eslint-plugin": "latest",
-    "@ripple-ts/prettier-plugin": "latest",
-    "@ripple-ts/vite-plugin": "latest",
-    "@ripple-ts/typescript-plugin": "latest",
     "tailwindcss": "^4.1.12",
     "@tailwindcss/vite": "^4.1.12"
   }
