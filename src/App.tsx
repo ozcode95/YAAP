@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import { invoke } from "@tauri-apps/api/core";
 import { pyInvoke } from "tauri-plugin-pytauri-api";
 import "./App.css";
@@ -18,41 +17,7 @@ function App() {
 
   return (
     <main className="container">
-      <h1>Welcome to PyTauri</h1>
-      <a href="https://pytauri.github.io/pytauri/latest/" target="_blank">
-        <img src="/pytauri.svg" className="logo pytauri" alt="PyTauri logo" />
-      </a>
-      <div className="row">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo vite" alt="Vite logo" />
-        </a>
-        <a href="https://tauri.app" target="_blank">
-          <img src="/tauri.svg" className="logo tauri" alt="Tauri logo" />
-        </a>
-        <a href="https://react.dev/" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-        <a href="https://python.org" target="_blank">
-          <img src="/python.svg" className="logo python" alt="Python logo" />
-        </a>
-      </div>
-      <p>Click on any logo to learn more.</p>
-
-      <form
-        className="row"
-        onSubmit={async (e) => {
-          e.preventDefault();
-          await greet();
-        }}
-      >
-        <input
-          id="greet-input"
-          onChange={(e) => setName(e.currentTarget.value)}
-          placeholder="Enter a name..."
-        />
-        <button type="submit">Greet</button>
-      </form>
-      <p id="greet-msg">{greetMsg}</p>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
     </main>
   );
 }
